@@ -55,7 +55,7 @@ void loop() {
     BTSerial.print(dust);                                                           //미세먼지값  
     BTSerial.println("  ");                                                         //사용자에게 진행상태를 보여주기 위해 출력
     if(flame<100){                                                                  //불꽃감지센서값이 100밑으로 내려가면(불꽃 감지되면)
-      BTSerial.println("화재발생");                                                  //사용자에게 진행상태를 보여주기 위해 출력
+      BTSerial.println("화재발생");                                                    //사용자에게 진행상태를 보여주기 위해 출력
       BTSerial.println("화재발생");  
       BTSerial.println("화재발생"); 
       BTSerial.println("화재발생"); 
