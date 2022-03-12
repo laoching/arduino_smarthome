@@ -16,9 +16,9 @@ uint8_t flame;                                                              //i2
 
 SoftwareSerial mySerial(12,13); //RX,TX                                     //wifi 모듈 연결 핀 시리얼 정의
 
-String ssid = "olleh_WiFi_2776";                                            //공유기 정보
-String PASSWORD = "0000001138";
-String host = "121.129.10.128";
+String ssid = "AP name";                                                    //공유기 정보
+String PASSWORD = "AP Password";
+String host = "Official IP";
 
 void connectWifi(){                                                         //wifi 연결을 위한 함수
 
